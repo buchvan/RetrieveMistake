@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.14)
+project(RetrieveMistake)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(RetrieveMistake src/main.cpp src/mistakes/Mistake.cpp headers/mistakes/Mistake.h src/polynomials/Polynomial.cpp headers/polynomials/Polynomial.h src/exceptions/RetrieveMistakeException.cpp headers/exceptions/RetrieveMistakeException.h src/mistakes/IncorrectSquareOfSumBinomialMistake.cpp headers/mistakes/IncorrectSquareOfSumBinomialMistake.h src/mistakes/IncorrectCubeOfSumBinomialMistake.cpp headers/mistakes/IncorrectCubeOfSumBinomialMistake.h src/mistakes/IncorrectPowerOfPolynomialMistake.cpp headers/mistakes/IncorrectPowerOfPolynomialMistake.h src/mistakes/IncorrectSquareOfDifBinomialMistake.cpp headers/mistakes/IncorrectSquareOfDifBinomialMistake.h src/mistakes/IncorrectCubeOfDifBinomialMistake.cpp headers/mistakes/IncorrectCubeOfDifBinomialMistake.h)
